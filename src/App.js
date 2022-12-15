@@ -1,17 +1,14 @@
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a>
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Board from "./Board";
+import "./App.css"
+import {React,Component} from "react";
+class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+        <Board />
+      </div>
+    );
+  }
 }
 
 export default App;
